@@ -1,0 +1,4 @@
+baseURL = "http://example.org/"
+languageCode = "es-mx"
+title = "Cloud Native MX"
+theme = "website"

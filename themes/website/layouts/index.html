@@ -1,0 +1,31 @@
+{{ partial "header.html" . }}
+<section class="main">
+    <div class="container">
+        <div class="content">
+            {{ if .Content }}
+                <div class="markdown">
+                    {{ .Content }}
+                </div>
+            {{ end }}
+            {{ $totalpostscount := len (where .Data.Pages "Section" "blog") }}
+            {{ $latestpostscount := .Site.Params.latestpostscount | default $totalpostscount }}
+            {{ if gt $latestpostscount 0 }}
+                <div class="page-heading">{{ i18n "latestPosts" }}</div>
+                <ul>
+                    {{ range (first $latestpostscount (where .Data.Pages.ByPublishDate.Reverse "Section" "blog")) }}
+                        {{ partial "li.html" . }}
+                    {{ end }}
+                    {{ if gt $totalpostscount $latestpostscount }}
+                        {{ range where .Site.Menus.main "Identifier" "blog" }}
+                            <li class="post-item no-bullet">
+                                <a id="see-more" {{ printf "href=%q " .URL | safeHTMLAttr }}><span>See more&hellip;</span></a>
+                            </li>
+                        {{ end }}
+                    {{ end }}
+                </ul>
+            {{ end }}
+        </div>
+    </div>
+</section>
+{{ partial "footer.html" . }}
+

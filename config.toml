@@ -1,4 +1,16 @@
-baseURL = "http://example.org/"
+baseURL = "http://cloudnative.mx/"
 languageCode = "es-mx"
 title = "Cloud Native MX"
 theme = "website"
+
+[params]
+author = "Cloud Native Mexico"
+maker = "Circulo Siete"
+makerUrl = "http://circulosiete.com"
+logo = "/logo.png"
+
+facebook = "http://facebook.com/cloudnativemx"
+twitter = "http://twitter.com/cloudnativemx"
+github = "http://github.com/cloudnativemx"
+meetup = "https://www.meetup.com/Cloud-Native-Mexico/"
+

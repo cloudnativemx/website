@@ -1,9 +1,3 @@
-/*
-Kotha Pro
-Author: ShapedTheme
-Version: 2.0
-*/
-/* base common css*/
 .post-cat, .features-content .marketing-promo-box .promo-tag, .magazine-blog .boxed .magazine-content .feature-post .post-content .entry-meta .tag {
   color: #da521e;
   display: inline-block;
@@ -1074,7 +1068,7 @@ footer {
     letter-spacing: 0.5px;
     margin-bottom: 28px; }
   .kotha-sidebar .widget.about-me-widget {
-    background: url("assets/images/about-me-bg.jpg") no-repeat;
+    background: url("/about-me-bg.jpg") no-repeat;
     -webkit-background-size: 100%;
     background-size: 100%;
     background-color: #fff; }

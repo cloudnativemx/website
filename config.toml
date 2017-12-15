@@ -10,6 +10,7 @@ makerUrl = "http://circulosiete.com"
 logo = "/logo.png"
 melogo = "/me.jpg"
 about = "Entusiastas de #cloudNative. Estamos aquí para divulgar las prácticas, patrones y herramientas para crear software fabuloso, eficiente, resiliente y con HA."
+footerabout = "Entusiastas de #cloudNative. Estamos aquí para divulgar las prácticas, patrones y herramientas para crear software fabuloso, eficiente, resiliente y con HA."
 
 facebook = "http://facebook.com/cloudnativemx"
 twitter = "http://twitter.com/cloudnativemx"

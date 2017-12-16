@@ -1,6 +1,8 @@
 ---
 title: "Meetup Enero 2018"
 date: 2018-01-04T19:11:05-06:00
+featured_image: /assets/images/post-thumb-1.jpg
+author: domix
 categories:
   - Meetup
 ---

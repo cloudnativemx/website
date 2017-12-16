@@ -38,13 +38,7 @@
                             <a href="{{ .Permalink }}">{{ with .Site.Params.continueReadingText }}{{ . }}{{ else }}Read On{{ end }} &rarr;</a>
                         </div>
                         <div class="post-meta">
-                            <ul class="pull-left list-inline author-meta">
-                                <li class="author">
-                                    Por <a href="/author/{{if isset .Params "author_id" }}{{index .Params "author_id"}} {{else}}cloudnativemx {{end}}">{{if isset .Params "author_name" }} {{ index .Params "author_name" }} {{else}} Cloud Native MX {{end}}.</a>
-                                </li>
-                                <li class="date">{{ .Date.Format "Mon, 2 Jan 2006" }}</li>
-
-                            </ul>
+                            {{ partial "author" .}}
                             <ul class="pull-right">
                                 <li class="date"> {{ if not .Site.Params.disableReadingTime }} {{ .ReadingTime }} minute read {{ end }}</li>
                             </ul>

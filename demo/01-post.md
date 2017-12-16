@@ -2,7 +2,7 @@
 title: "My 01 Post"
 date: 2017-12-01T13:38:20-06:00
 featured_image: /assets/images/post-thumb-1.jpg
-author_id: domix
+author: domix
 author_name: Domingo Suárez Torres
 category: Post
 ---

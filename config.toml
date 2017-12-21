@@ -2,9 +2,10 @@ baseURL = "http://cloudnative.mx/"
 languageCode = "es-mx"
 title = "Cloud Native MX"
 theme = "website"
+googleAnalytics     = "UA-112003442-1"
 
 [params]
-author = "Cloud Native Mexico"
+author = "Cloud Native México"
 maker = "Circulo Siete"
 makerUrl = "http://circulosiete.com"
 logo = "/logo.png"

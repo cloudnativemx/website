@@ -651,7 +651,8 @@ select:focus, select:active, input:focus, input:active, textarea:focus, textarea
       font-style: normal; }
 
 .scroll-up a {
-  background-color: rgba(218, 82, 30, 0.85);
+  /*background-color: rgba(218, 82, 30, 0.85);*/
+  background-color: rgb(132,141,220);
   display: block;
   width: 38px;
   height: 38px;

@@ -24,7 +24,7 @@ a {
   transition: all 0.33s;
   line-height: 1.4; }
   a:hover {
-    color: #da521e;
+    color: #848ddc;
     text-decoration: none; }
 
 h1, h2, h3, h4, h5, h6 {
@@ -1101,8 +1101,8 @@ footer {
         line-height: 28px;
         margin-right: 6px; }
         .kotha-sidebar .widget.about-me-widget .social-share ul li a:hover {
-          background: #da521e;
-          border-color: #da521e;
+          background: #848ddc;
+          border-color: #848ddc;
           color: #fff; }
   .kotha-sidebar .widget.news-letter-widget input[type="email"] {
     width: 100%;

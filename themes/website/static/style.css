@@ -1,5 +1,5 @@
 .post-cat, .features-content .marketing-promo-box .promo-tag, .magazine-blog .boxed .magazine-content .feature-post .post-content .entry-meta .tag {
-  color: #da521e;
+  color: #848ddc;
   display: inline-block;
   font-size: 11px;
   font-weight: 700;
@@ -1368,15 +1368,15 @@ footer {
     .single-blog .post-content .entry-content {
       margin-bottom: 35px; }
     .single-blog .post-content .continue-reading a {
-      border: 1px solid #da521e;
-      color: #da521e;
+      border: 1px solid #848ddc;
+      color: #848ddc;
       display: inline-block;
       font-size: 12px;
       font-weight: 700;
       letter-spacing: 1px;
       padding: 10px 18px; }
       .single-blog .post-content .continue-reading a:hover {
-        background: #da521e;
+        background: #848ddc;
         color: #fff; }
     .single-blog .post-content .post-meta {
       overflow: hidden;

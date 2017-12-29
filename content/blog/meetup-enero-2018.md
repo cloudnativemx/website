@@ -18,9 +18,9 @@ Para poder acceder a las instalaciones, es requisito [**registrarse en nuestro M
 
 En esta primer edición, vamos a platicar del porque estamos impulsando CloudNative, que buscamos y sobre todo, que necesitamos como comunidad. También tendremos una introducción a Observability.
 
-* **7:15 pm, Presentación de Cloud Native México por Domingo Suárez**. Hablaremos rápidamente sobre lo que buscamos con la comunidad, también hablaremos de lo que ocurrió en el #cloudNativeCon + #KubeCon North America 2017
+* **7:15 pm, Presentación de Cloud Native México por _Domingo Suárez_**. Hablaremos rápidamente sobre lo que buscamos con la comunidad, también hablaremos de lo que ocurrió en el #cloudNativeCon + #KubeCon North America 2017
 
-* **7:45 pm, Observabilidad con Cloud Native por Domingo Suarez**. El monitoreo no es suficiente, necesitamos más visibilidad de lo que ocurre en nuestra infraestructura, veremos como en sistemas distribuidos podemos tener trazabilidad y monitoreo para mantener saludables nuestros componentes.
+* **7:45 pm, Observabilidad con Cloud Native por _Domingo Suárez_**. El monitoreo no es suficiente, necesitamos más visibilidad de lo que ocurre en nuestra infraestructura, veremos como en sistemas distribuidos podemos tener trazabilidad y monitoreo para mantener saludables nuestros componentes.
 
 * **8:30 pm, Netwoking**
 

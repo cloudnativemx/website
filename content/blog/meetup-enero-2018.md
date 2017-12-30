@@ -16,7 +16,7 @@ Nos complace enormemente anunciar nuestro primer meetup. Será el próximo 11 de
 
 Para poder acceder a las instalaciones, es requisito [**registrarse en nuestro Meetup**](https://www.meetup.com/Cloud-Native-Mexico/events/245821751/), con su nombre completo y llevar el día del evento una identificación oficial.
 
-En esta primer edición, vamos a platicar del porque estamos impulsando CloudNative, que buscamos y sobre todo, que necesitamos como comunidad. También tendremos una introducción a Observability.
+En esta primer edición, vamos a platicar del porque estamos impulsando `Cloud Native`, qué buscamos y sobre todo, qué necesitamos como comunidad. También tendremos una introducción a `Observability`.
 
 * **7:15 pm, Presentación de Cloud Native México por _Domingo Suárez_**. Hablaremos rápidamente sobre lo que buscamos con la comunidad, también hablaremos de lo que ocurrió en el #cloudNativeCon + #KubeCon North America 2017
 

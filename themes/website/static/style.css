@@ -175,7 +175,7 @@ select:focus, select:active, input:focus, input:active, textarea:focus, textarea
         .blog-carousel .single-carousel .carousel-box-content h2 a {
           color: inherit; }
           .blog-carousel .single-carousel .carousel-box-content h2 a:hover {
-            color: #da521e; }
+            color: #848ddc; }
       .blog-carousel .single-carousel .carousel-box-content .post-meta ul li {
         font-family: "Lato", sans-serif;
         font-weight: normal;
@@ -694,7 +694,7 @@ select:focus, select:active, input:focus, input:active, textarea:focus, textarea
       padding: 20px 12px;
       letter-spacing: 1px; }
       .kotha-menu .navbar .navbar-nav li a:hover {
-        color: #da521e; }
+        color: #848ddc; }
     .kotha-menu .navbar .navbar-nav li .dropdown-menu {
       margin: 0;
       border-radius: 0;
@@ -1414,7 +1414,7 @@ footer {
           font-size: 16px;
           padding-left: 3px; }
           .single-blog .post-content .post-meta .social-share li a:hover {
-            color: #da521e; }
+            color: #848ddc; }
   .single-blog.post-grid .entry-content {
     margin-bottom: 20px; }
   .single-blog.post-grid .entry-header {

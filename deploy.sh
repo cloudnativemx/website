@@ -2,4 +2,4 @@
 
 rm -rf public
 
-hugo
+hugo && rsync -avz --delete public/ root@cloudnative.mx:/www/cloudnative.mx/public/

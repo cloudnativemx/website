@@ -3,6 +3,7 @@ languageCode = "es-mx"
 title = "Cloud Native MX"
 theme = "website"
 googleAnalytics     = "UA-112003442-1"
+disqusShortname = "cloudnativemx"
 
 [params]
 author = "Cloud Native México"

@@ -1,0 +1,57 @@
+{{ partial "header" . }}
+{{ $baseUrl := .Site.BaseURL }}
+
+<div class="kotha-default-content">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-8">
+                {{ $paginator := .Paginate (where .Data.Pages "Type" "blog") }}
+                {{ range $paginator.Pages }}
+
+
+                <article class="single-blog">
+                    <!-- featured-image -->
+                    {{if isset .Params "featured_image" }}
+                        {{ $featuredImage := index .Params "featured_image" }}
+                        {{ with .Params.featured_text }}<span class="sticky-status">{{ . }}</span>{{ end }}
+
+                        <div class="post-thumb">
+                            <a href="{{ .Permalink }}"><img src="{{ $featuredImage }}" alt="{{ .Title }}"></a>
+                        </div>
+
+                    {{end}}
+                    
+                    <div class="post-content">
+                        <div class="entry-header text-center text-uppercase">
+                            {{ if isset .Params "categories" }}
+      
+
+                            {{ range .Params.categories }}<a class="post-cat" href="{{ $baseUrl }}/categories/{{ . | urlize }}">{{ . }}</a>{{ end }}
+                            {{ end }}
+
+                            <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+                        </div>
+                        <div class="entry-content">
+                            <p>{{ .Summary }}</p>
+                        </div>
+                        <div class="continue-reading text-center text-uppercase">
+                            <a href="{{ .Permalink }}">{{ with .Site.Params.continueReadingText }}{{ . }}{{ else }}Leer más{{ end }} &rarr;</a>
+                        </div>
+                        <div class="post-meta">
+                            {{ partial "author" .}}
+                            <ul class="pull-right">
+                                <li class="date"> {{ if not .Site.Params.disableReadingTime }} {{ .ReadingTime }} minute read {{ end }}</li>
+                            </ul>
+                        </div>
+                    </div>
+                </article>
+                {{ end }}
+                
+                {{ partial "pagination" .}}
+            </div>
+            {{ partial "lateral" .}}
+        </div>
+    </div>
+</div>
+
+{{ partial "footer" . }}

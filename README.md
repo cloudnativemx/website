@@ -47,7 +47,7 @@ También empezamos a usar [Disqus][6] para los comentarios.
 
 ## Reglas para crear nuevas entradas
 
-- Las entradas deben crearse dentro del directorio  _./content/post/_
+- Las entradas deben crearse dentro del directorio  _./content/blog/_
 - El nombre del archivo debe seguir la siguiente estructura:
 
    ```

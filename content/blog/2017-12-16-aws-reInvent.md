@@ -1,20 +1,19 @@
 ---
-title: "AWS re:Invent"
+title: "AWS re:Invent 2017"
 author: markox
-date: 2017-12-16T13:11:05-06:00
+date: 2018-01-15T13:11:05-06:00
 featured_image: /media/2017/12/work-desktop.jpg
 featured_image_source: https://unsplash.com/photos/8u5JvXfp4uw
-url: 2017-12-16-aws-reInvent/
+url: aws-reInvent-2017/
 categories:
-  - aws
-  - conference
+  - conferencia
 tags:
   - aws
   - reInvent
-  - conference
+  - conferencia
 ---
 
-## AWS re:Invent
+## AWS re:Invent 2017
 
 Recientemente tuve la oportunidad de asistir a este mega evento, la experiencia es genial pero al principio puede ser frustante de eso hablare aquí y sobre algunas recomendaciones, espero tengas la oportunidad de asistir algún dia.
 

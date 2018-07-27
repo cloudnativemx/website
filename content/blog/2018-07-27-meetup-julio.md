@@ -16,3 +16,5 @@ tags:
 ---
 
 # Meetup Julio 2018
+
+El martes 17 de julio tuvimos nuestro meetup bimestral, en esta ocasión tuvimos un par de charlas muy interesantes.

@@ -19,6 +19,12 @@ tags:
 
 El martes 17 de julio tuvimos nuestro meetup bimestral, en esta ocasión tuvimos un par de charlas muy interesantes.
 
+Estuvimos muy emocionados y nerviosos, dado que rompimos nuestro record de más `Cloud Natives` registrados:
+{{< tweet 1018919531849420801 >}}
+
+Al meetup llegaron alrededor de 60 personas, el lugar nos quedo chico, regularmente asisten el 30% de los registrados, pero vimos mas del 50% de asistencia.
+
+
 En esta ocasión daremos una introducción a la más popular herramienta para orquestar contenedores **Kubernetes** y al administrador de paquetes **Helm**
 
 * 7:00 pm. Recepción

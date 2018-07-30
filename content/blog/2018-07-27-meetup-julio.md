@@ -24,8 +24,18 @@ Estuvimos muy emocionados y nerviosos, dado que rompimos nuestro record de más 
 
 Al meetup llegaron alrededor de 60 personas, el lugar nos quedo chico, regularmente asisten el 30% de los registrados, pero vimos mas del 50% de asistencia.
 
+## Fotos
 
-En esta ocasión daremos una introducción a la más popular herramienta para orquestar contenedores **Kubernetes** y al administrador de paquetes **Helm**
+Dando la bienvenida a los asistentes
+![alt text][01]
+
+Los asistentes
+![alt text][02]
+
+
+## Charlas
+
+En esta ocasión hicimos una introducción a la más popular herramienta para orquestar contenedores **Kubernetes** y al administrador de paquetes **Helm**
 
 * 7:00 pm. Recepción
 * 7:20 pm. Introducción a Kubernetes
@@ -36,10 +46,22 @@ desarrollador de software en Circulo Siete, donde se dedica a atender
 a clientes que migran a Kubernetes.
 * 8:30 pm. Networking
 
+### Material de la charla de Kubernetes
+
 {{< slideshare id="107672411" >}}
 
-{{< youtube id="ACsJbOuiXRk" autoplay="true" >}}
+{{< youtube id="ACsJbOuiXRk" autoplay="false" >}}
+
+
+### Material de la charla de Helm
+
+{{< slideshare id="107736910" >}}
+
+{{< youtube id="P-Fp2j4M6yA" autoplay="false" >}}
+
 
 **¡Esperamos con gusto verlos en el próximo meetup!**
 
+[01]: /media/2018/07/27/photo1.jpg "Casa llena"
+[02]: /media/2018/07/27/photo2.jpg "Casa llena"
 [03]: https://twitter.com/gojcs

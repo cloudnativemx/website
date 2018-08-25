@@ -1,0 +1,19 @@
+apiVersion: certmanager.k8s.io/v1alpha1
+kind: Certificate
+metadata:
+  name: cloudnative-mx-tls
+  namespace: cloudnativemx-website
+spec:
+  secretName: cloudnative-mx-tls
+  issuerRef:
+    name: letsencrypt-prod
+    kind: ClusterIssuer
+  commonName: cloudnative.mx
+  dnsNames:
+  - cloudnative.mx
+  acme:
+    config:
+    - http01:
+        ingress: website
+      domains:
+      - cloudnative.mx

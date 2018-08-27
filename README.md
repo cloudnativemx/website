@@ -2,9 +2,9 @@
 
 Este es el código fuente del sitio de [Cloud Native Mexico][4]. 
 
-Ahora el sitio de construye con [Hugo][1] que realmente necesita archivos [Markdown][3] y la definición de plantillas para generar un sitio estático.
+El sitio de construye con [Hugo][1] que solamente necesita archivos [Markdown][3] y la definición de plantillas para generar un sitio estático.
 
-También empezamos a usar [Disqus][6] para los comentarios.
+También usamos [Disqus][6] para los comentarios.
 
 **Si deseas participar, has _fork_ [de este repositorio][9], agrega tu entrada y manda un _Pull Request_.**
 
@@ -13,8 +13,8 @@ También empezamos a usar [Disqus][6] para los comentarios.
 1. Haz un clone del repositorio en tu maquina
   * Recomendamos que hagas un fork
 2. Instala [Hugo][1]
-  - Asegurate que la versión de Hugo sea por lo menos la _0.32_
-3. En la raiz del proyecto en una terminal ejecuta:
+  - Asegurate que la versión de Hugo sea por lo menos la _0.47_
+3. En el directorio `site` del proyecto en una terminal ejecuta:
 
     ```bash
     ./run.sh
@@ -26,7 +26,7 @@ También empezamos a usar [Disqus][6] para los comentarios.
 ## Como crear una nueva entrada
 
  1. Tener instalado [Hugo][1]
- 2. En la raiz del proyecto en una terminal ejecuta:
+ 2. En el directorio `site` del proyecto en una terminal ejecuta:
 
 
     ```bash

@@ -2,7 +2,7 @@ apiVersion: extensions/v1beta1
 kind: Deployment
 metadata:
   name: website
-  namespace: cloudnativemx-website
+  namespace: cloudnativemx
   labels:
     app: website
     name: website
@@ -57,7 +57,7 @@ apiVersion: autoscaling/v1
 kind: HorizontalPodAutoscaler
 metadata:
   name: website
-  namespace: cloudnativemx-website
+  namespace: cloudnativemx
 spec:
   maxReplicas: 2
   minReplicas: 1

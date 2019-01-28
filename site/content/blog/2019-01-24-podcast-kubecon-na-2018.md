@@ -32,7 +32,7 @@ En esta ocasión platicamos sobre la experiencia vivida en el `KubeCon NA 2018`,
 
 ### Escuchar el podcast desde SoundCloud
 
-<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/564143805&amp;color=%237a92d7&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true&amp;visual=true"></iframe>
+{{< sound-cloud id="564143805" >}}
 
 #### Feed RSS para que te suscribas y no te pierdas ningún episodio
 

@@ -22,7 +22,7 @@ spec:
         name: website
     spec:
       containers:
-        - image: cloudnativemx/website:0.0.1
+        - image: cloudnativemx/website:0.0.3
           name: website
           imagePullPolicy: Always
           resources:

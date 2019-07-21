@@ -41,7 +41,7 @@ tags:
 
 {{< youtube id="pi2pHhID6q8" autoplay="false" >}}
 
-### Escuchanos en Spotify
+### Escúchanos en Spotify
 
 [![Spotify](/spotify-podcast-badge-blk-grn-330x80.png)](https://open.spotify.com/show/4PQyVjzcDQuELxi3aNO86e)
 

@@ -8,7 +8,7 @@ disqusShortname = "cloudnativemx"
 [params]
 author = "Cloud Native México"
 maker = "Círculo Siete"
-makerUrl = "http://circulosiete.com"
+makerUrl = "https://circulosiete.com"
 logo = "/logo.png"
 melogo = "/me.jpg"
 about = "Entusiastas de #cloudNative. Estamos aquí para divulgar las prácticas, patrones y herramientas para crear software fabuloso, eficiente, resiliente y con HA."

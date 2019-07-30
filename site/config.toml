@@ -7,7 +7,7 @@ disqusShortname = "cloudnativemx"
 
 [params]
 author = "Cloud Native México"
-maker = "Circulo Siete"
+maker = "Círculo Siete"
 makerUrl = "http://circulosiete.com"
 logo = "/logo.png"
 melogo = "/me.jpg"

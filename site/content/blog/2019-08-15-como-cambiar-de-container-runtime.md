@@ -1,6 +1,8 @@
 ---
 title: "Como cambiar de Container Runtime"
 date: 2019-08-12T16:31:31-05:00
+featured_image: /media/2019/08/15/minikube_cri-o_containerd_logo.png
+featured_image_source: https://github.com/kubernetes/minikube/blob/master/images/logo/minikube-logo.png
 author: angelo
 url: /como-cambiar-de-container-runtime/
 categories:
@@ -8,7 +10,7 @@ categories:
 tags:
   - kubernetes
   - minikube
-  - rkt
+  - cri-o
   - containerd
   - docker
   - getting-started
@@ -16,57 +18,42 @@ tags:
 
 # Cambiando de Container Runtime
 
-Cuando hablamos de contenedores siempre hacemos referencia a Docker pero no es la única opción disponible,
-si bien Docker Inc como compañia ha contribuido a generar un estandar Open Containers Iniciative (OCI)
+Cuando hablamos de contenedores comunmente se hace referencia a [Docker][docker] pero esta no es la única opción disponible,
+si bien [Docker Inc][docker] fue la compañia que ayudó a popularizar el termino de Contenedores 
 no es la única herramienta en prestar el servicio de Container Runtime. 
 
 La idea de esta entrada en el blog es conocer las diferentes opciones de Container Runtime 
-que existen en el mercado y como configurarlas en nuestro ambiente de Minikube
+que existen en el mercado y como configurarlas en nuestro ambiente de Minikube.
 
 Si quieren saber más sobre el tema, sigan la cuenta de Twitter de la Cloud Native para más noticias, guías y meetups.
 
 ---
-### ¿Que es la Open Containers Iniciative ?
+### [Open Containers Iniciative][OCI]
 
-Es una fundación establecida en Junio del 2015 por Docker Inc, CoreOS y otros lideres de la industria de contenedores, 
-la OCI mantiene 2 especificaciones super importantes para la industria de contenedores: **Runtime Specification (runtime-spec)** 
-y **Image Specification (image-spec)**. 
+La [Open Containers Iniciative][OCI] (OCI) es una fundación establecida en Junio del 2015 por [Docker Inc][docker], 
+[CoreOS][coreOS] y otros lideres de la industria, cuyo objectivo principal es estandarizar el uso de contenedores 
+a partir de ciertas especificaciones. La [OCI][OCI] mantiene 2 especificaciones super importantes para la industria: 
+**Runtime Specification (runtime-spec)** y **Image Specification (image-spec)**. 
 
-El primero estandariza la implementación del Container Runtime de esta forma tu puedes elegir tu Vendor de contenedores 
-sin tener que cambiar tu implementación y el segundo estandariza el formato de imagenes.
+De esta forma se estandaríza el runtime de tu contenedor y el formato de imagenes de los mismos, dando como resultado 
+una sana competencia en el mercado. 
 
-### Minikube + Docker
+Para la plataforma de Kubernetes esta implementación ayuda a poder cambiar de Container Runtime 
+sin tener que cambiar tu implementación como veremos a continuación...
 
-Para la instalación de minikube puedes seguir los pasos detallados en este post.
+### Minikube + [Containerd][containerd]
 
-Por default minikube configura Docker como Container Runtime:
+Por default [minikube][minikube] configura Docker como Container Runtime para levantar minikube con [Containerd][containerd] 
+como Container Runtime debemos de levantar una instancia nueva de minikube con los siguientes parametros:
 
-```bash
-minikube start
-```
-
-```bash
-😄  minikube v1.3.1 on Ubuntu 18.04
-👍  Upgrading from Kubernetes 1.15.0 to 1.15.2
-💡  Tip: Use 'minikube start -p <name>' to create a new cluster, or 'minikube delete' to delete this one.
-🔄  Starting existing kvm2 VM for "minikube" ...
-⌛  Waiting for the host to be provisioned ...
-🐳  Preparing Kubernetes v1.15.2 on Docker 18.09.6 ...
-🚜  Pulling images ...
-🔄  Relaunching Kubernetes using kubeadm ... 
-⌛  Waiting for: apiserver proxy etcd scheduler controller dns
-🏄  Done! kubectl is now configured to use "minikube"
-```
-
-### Minikube + Containerd
-
-Para levantar minikube con Containerd como Container Runtime debemos de correr el siguiente comando:
+Nota: Como las pruebas las estoy generando en un equipo con Ubuntu la recomendación es usar KVM2 como Driver 
+para las Maquinas Vituales, pero no es necesario para las pruebas. 
 
 ```bash
 minikube start -p kube-containerd --network-plugin=cni --enable-default-cni --container-runtime=containerd --bootstrapper=kubeadm --vm-driver kvm2
 ```
 
-Nos regresará algo así:
+Nos regresará la creación de la instancia:
 
 ```bash
 😄  [kube-containerd] minikube v1.3.1 on Ubuntu 18.04
@@ -93,13 +80,13 @@ CURRENT   NAME              CLUSTER           AUTHINFO          NAMESPACE
           new-world         new-world         new-world         
 ```
 
-Con el siguiente comando podrás cambiar de contexto:
+Para navegar entre los contextos puedes usar el siguiente comando:
 
 ```bash
-kubectl config use-context CONTEXT_NAME
+kubectl config use-context kube-containerd
 ```
 
-Para poder corroborar que nuestro Container runtime vamos a levantar un deployment muy sencillo:
+Vamos a generar un sencillo deployment para validar nuestra correcta instalación:
 
 ```bash
 kubectl run kubernetes-bootcamp --image=gcr.io/google-samples/kubernetes-bootcamp:v1 --port=8080
@@ -109,7 +96,7 @@ kubectl run kubernetes-bootcamp --image=gcr.io/google-samples/kubernetes-bootcam
 deployment.apps/kubernetes-bootcamp created
 ```
 
-Para comprobar que nuestro deployment se genero correctamente lo revisamos:
+A continuación revisamos que todo este OK con nuestro deployment:
 
 ```bash
 kubectl get deployments,pods
@@ -128,6 +115,9 @@ Para comprobar que el Container Runtime es el indicado hacemos un describe sobre
 ```bash
 kubectl describe pods 
 ```
+
+Aquí podemos observar que en la parte del Container ID nos indica el Container Runtime con el que está corriendo la imagen, 
+aunque esta fue construida con Docker 
 
 ```bash
 Name:           kubernetes-bootcamp-5b48cfdcbd-6w7pp
@@ -181,9 +171,9 @@ Events:
 
 ```
 
-### Minikube + CRI-O
+### Minikube + [CRI-O][cri-o]
 
-Para no dejar tambien podemos levantar con CRI-O que es otro sabor de Container Runtime:
+Para no dejar tambien podemos levantar con [CRI-O][cri-o] que es otro sabor de Container Runtime:
 
 ```bash
 minikube start -p kube-cri-o --network-plugin=cni --enable-default-cni --container-runtime=cri-o --bootstrapper=kubeadm --vm-driver kvm2
@@ -265,9 +255,9 @@ Events:
   Normal  Started    63s   kubelet, minikube  Started container kubernetes-bootcamp
 ```
 
-### Minikube + rkt
+### Minikube + [rkt][rkt]
 
-rkt es un Application Container Engine desarrollado por CoreOS el cual soporta la especificación de 
+[rkt][rkt] es un Application Container Engine desarrollado por [CoreOS][coreOS] el cual soporta la especificación de 
 Container Networking Interface (CNI) y puede correr imagenes de Docker y OCI.
 
 **Lamentablemente el soporte a rkt fue removido de Kubernetes y Minikube en la versión v1.10.0 😿**
@@ -277,4 +267,10 @@ Container Networking Interface (CNI) y puede correr imagenes de Docker y OCI.
 
 Esperamos que esta breve guia les sea de utilidad, recuerden dejar sus comentarios para seguir mejorando.
 
+[docker]: https://www.docker.com/
+[coreOS]: https://coreos.com/
+[OCI]: https://www.opencontainers.org/
 [minikube]: https://github.com/kubernetes/minikube
+[containerd]: https://containerd.io/
+[cri-o]: https://cri-o.io/
+[rkt]: https://coreos.com/rkt/

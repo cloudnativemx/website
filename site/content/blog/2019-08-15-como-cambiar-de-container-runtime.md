@@ -1,5 +1,5 @@
 ---
-title: "Como cambiar de Container Runtime"
+title: "Como cambiar de Container Runtime en Minikube"
 date: 2019-08-12T16:31:31-05:00
 featured_image: /media/2019/08/15/minikube_cri-o_containerd_logo.png
 featured_image_source: https://github.com/kubernetes/minikube/blob/master/images/logo/minikube-logo.png

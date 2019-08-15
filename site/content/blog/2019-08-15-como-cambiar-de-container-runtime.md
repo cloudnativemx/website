@@ -18,8 +18,8 @@ tags:
 
 # Cambiando de Container Runtime
 
-Cuando hablamos de contenedores comunmente se hace referencia a [Docker][docker] pero esta no es la única opción disponible,
-si bien [Docker Inc][docker] fue la compañia que ayudó a popularizar el termino de Contenedores 
+Cuando hablamos de contenedores comúnmente se hace referencia a [Docker][docker] pero esta no es la única opción disponible,
+si bien [Docker Inc][docker] fue la compañia que ayudó a popularizar el término de Contenedores 
 no es la única herramienta en prestar el servicio de Container Runtime. 
 
 La idea de esta entrada en el blog es conocer las diferentes opciones de Container Runtime 
@@ -31,11 +31,11 @@ Si quieren saber más sobre el tema, sigan la cuenta de Twitter de la Cloud Nati
 ### [Open Containers Iniciative][OCI]
 
 La [Open Containers Iniciative][OCI] (OCI) es una fundación establecida en Junio del 2015 por [Docker Inc][docker], 
-[CoreOS][coreOS] y otros lideres de la industria, cuyo objectivo principal es estandarizar el uso de contenedores 
+[CoreOS][coreOS] y otros líderes de la industria, cuyo objectivo principal es estandarizar el uso de contenedores 
 a partir de ciertas especificaciones. La [OCI][OCI] mantiene 2 especificaciones super importantes para la industria: 
 **Runtime Specification (runtime-spec)** y **Image Specification (image-spec)**. 
 
-De esta forma se estandaríza el runtime de tu contenedor y el formato de imagenes de los mismos, dando como resultado 
+De esta forma se estandaríza el runtime de tu contenedor y el formato de imágenes de los mismos, dando como resultado 
 una sana competencia en el mercado. 
 
 Para la plataforma de Kubernetes esta implementación ayuda a poder cambiar de Container Runtime 
@@ -44,7 +44,7 @@ sin tener que cambiar tu implementación como veremos a continuación...
 ### Minikube + [Containerd][containerd]
 
 Por default [minikube][minikube] configura Docker como Container Runtime para levantar minikube con [Containerd][containerd] 
-como Container Runtime debemos de levantar una instancia nueva de minikube con los siguientes parametros:
+como Container Runtime, debemos de levantar una instancia nueva de minikube con los siguientes parametros:
 
 Nota: Como las pruebas las estoy generando en un equipo con Ubuntu la recomendación es usar KVM2 como Driver 
 para las Maquinas Vituales, pero no es necesario para las pruebas. 

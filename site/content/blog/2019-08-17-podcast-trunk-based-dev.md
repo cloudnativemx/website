@@ -1,5 +1,5 @@
 ---
-title: "Podcast S01-E06: Las notas de la semana"
+title: "Podcast S01-E07: Why I love Trunk Based Development (or pushing straight to master)"
 date: 2019-08-17T21:27:54-05:00
 featured_image: /media/2019/08/17/podcast.jpg
 featured_image_source: https://unsplash.com/photos/8lZttgeu_7o

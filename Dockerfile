@@ -1,4 +1,4 @@
-FROM jojomi/hugo:0.55.6 AS build-env
+FROM jojomi/hugo:0.57.2 AS build-env
 
 WORkDIR /app
 COPY ./site ./

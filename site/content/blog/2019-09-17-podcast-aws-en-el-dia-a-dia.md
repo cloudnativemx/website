@@ -33,7 +33,6 @@ tags:
 * Splunk shopping
     * [Splunk has agreed to acquire @signalfx](https://twitter.com/splunk/status/1164267179123937280)
     * [Splunk has agreed to acquire Omnition](https://twitter.com/splunk/status/1169220204796305409)
-* []()
 
 ## Twitter!
 
@@ -48,7 +47,6 @@ tags:
 * [Kubernetes-based Event Driven Autoscaling](https://github.com/kedacore/keda)
 * [Balena: IoT platform](https://www.balena.io)
 * [Google Cloud Certification](https://inthecloud.withgoogle.com/cloud-certification#!/#benefits)
-* []()
 
 
 ## Repos chingones de código
@@ -64,8 +62,6 @@ tags:
 
 * [MySQL: a Cloud Native Database](https://www.meetup.com/Cloud-Native-Mexico/events/264549922/)
 * [ServiceMeshCon](https://twitter.com/cra/status/1170743614726713346)
-* []()
-* []()
 
 
 ## Tema del día

@@ -68,12 +68,12 @@ Oracle hace lo inesperado y la moralidad en la nube
 
 ### Escuchar el podcast desde SoundCloud
 
-{{< sound-cloud id="682500608" >}}
+{{< sound-cloud id="685932484" >}}
 
 
 ### Ver el video en YouTube
 
-{{< youtube id="U4_0IhyX03E" autoplay="false" >}}
+{{< youtube id="0KyJS32i_k8" autoplay="false" >}}
 
 ### Escúchanos en Apple Podcast
 

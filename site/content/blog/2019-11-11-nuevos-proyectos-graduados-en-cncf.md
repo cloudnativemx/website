@@ -2,7 +2,7 @@
 title: "Podcast S01-E12: Nuevos Proyectos Graduados en CNCF"
 date: 2019-11-11T11:38:32-06:00
 featured_image: /media/2019/11/11/podcast.jpg
-featured_image_source: https://unsplash.com/photos/uxIU0kYGu-k
+featured_image_source: https://unsplash.com/photos/1VqHRwxcCCw
 author: domix
 url: /podcast-s01-e12-nuevos-proyectos-graduados-en-cncf/
 categories:

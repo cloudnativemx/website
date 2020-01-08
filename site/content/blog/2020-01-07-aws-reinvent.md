@@ -1,6 +1,6 @@
 ---
 title: "AWS re:Invent"
-author: markox
+author: marco
 date: 2020-01-07T13:11:05-06:00
 featured_image: /media/2020/01/07/amazon_reinvent.jpg
 featured_image_source: /media/2020/01/07/amazon_reinvent.jpg

@@ -39,18 +39,7 @@ De puede descargar el material desde [este repositorio en GitHub.][03]
 {{< youtube id="zrAIVXm8bD0" autoplay="false" >}}
 
 
-
-
-
-
-
 **¡Esperamos con gusto verlos en el próximo meetup!**
 
 [01]: http://centraal.com/
-[02]: https://twitter.com/domix "Domingo Suarez en Twitter"
-[03]: https://github.com/Angelorum/chaosEngineeringTalk
-[04]: /media/2019/05/31/01.png "Charla"
-[05]: /media/2019/05/31/02.png "Charla"
-[06]: /media/2019/05/31/03.png "Charla"
-
 

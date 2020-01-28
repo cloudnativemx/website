@@ -2,7 +2,7 @@
 title: "Podcast S01-E15: Despidos en Digital Ocean"
 date: 2020-01-21T16:16:12-06:00
 featured_image: /media/2020/01/21/podcast.png
-featured_image_source: 
+featured_image_source: https://unsplash.com/photos/KbR06h9dNQw
 author: domix
 url: /podcast-s01-e15-despidos-en-digital-ocean/
 categories:

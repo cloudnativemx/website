@@ -6,10 +6,12 @@ COPY ./site ./
 RUN sh -c './build.sh'
 
 # build runtime image
-FROM nginx:1.17.6-alpine
+FROM nginx:1.17.9-alpine
 
 ENV TZ=America/Mexico_City
 RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
+
+LABEL maintainer="Cloud Native MX <cloudnativemx@gmail.com>"
 
 #COPY --from=build-env /app/public/ /www/cloudnative.mx/public/
 #COPY conf/nginx/* /etc/nginx/conf.d

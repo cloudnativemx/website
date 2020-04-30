@@ -1,0 +1,3 @@
+[submodule "site/themes/hugo-casper3"]
+	path = site/themes/hugo-casper3
+	url = git@github.com:jonathanjanssens/hugo-casper3.git

@@ -2,7 +2,7 @@
 title: "AWS re:Invent 2017"
 author: markox
 date: 2018-01-15T13:11:05-06:00
-featured_image: /media/2018/01/aws-reinvent-2017.jpg
+feature_image: /media/2018/01/aws-reinvent-2017.jpg
 featured_image_source: https://cloudcheckr.com/wp-content/uploads/2017/10/Blog_Featured_Image_1280x720.jpg
 url: aws-reInvent-2017/
 categories:

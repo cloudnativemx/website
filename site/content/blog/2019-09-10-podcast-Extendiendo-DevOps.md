@@ -1,7 +1,7 @@
 ---
 title: "Podcast S01-E08: Extendiendo DevOps"
 date: 2019-09-10T07:38:15-05:00
-featured_image: /media/2019/09/10/podcast.jpg
+feature_image: /media/2019/09/10/podcast.jpg
 featured_image_source: https://unsplash.com/photos/8lZttgeu_7o
 author: domix
 url: /podcast-s01-e08-extendiendo-devops/

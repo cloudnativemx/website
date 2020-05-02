@@ -1,8 +1,8 @@
 ---
 title: "Retrospectiva Enero 2018"
 date: 2018-02-05T13:22:55-06:00
-_featured_image: /media/2018/02/02/retrospectiva-enero-2018.jpg
-_featured_image_source: https://unsplash.com/photos/AAHL8DtvBcg
+feature_image: /media/2018/02/02/retrospectiva-enero-2018.jpg
+featured_image_source: https://unsplash.com/photos/AAHL8DtvBcg
 author: domix
 url: /retrospectiva-enero-2018/
 categories:

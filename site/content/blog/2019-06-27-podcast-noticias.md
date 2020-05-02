@@ -1,7 +1,7 @@
 ---
 title: "Podcast S01E03: Noticias"
 date: 2019-06-27T16:59:59-05:00
-featured_image: /media/2019/06/podcast.jpg
+feature_image: /media/2019/06/podcast.jpg
 featured_image_source: https://unsplash.com/photos/OKLqGsCT8qs
 author: domix
 url: /podcast-noticias-junio-2019/

@@ -1,7 +1,7 @@
 ---
 title: "Podcast S01-E10: Oracle hace lo inesperado y la moralidad en la nube expatriado"
 date: 2019-09-23T20:58:26-05:00
-featured_image: /media/2019/09/24/podcast.jpg
+feature_image: /media/2019/09/24/podcast.jpg
 featured_image_source: https://unsplash.com/photos/MWPuqBTZYHw
 author: domix
 url: /podcast-s01-e10-oracle-hace-lo-inesperado-y-la-moralidad-en-la-nube/

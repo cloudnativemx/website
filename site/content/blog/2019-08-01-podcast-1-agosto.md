@@ -1,7 +1,7 @@
 ---
 title: "Podcast S01-E06: Las notas de la semana"
 date: 2019-08-01T23:29:36-05:00
-featured_image: /media/2019/08/01/podcast.jpg
+feature_image: /media/2019/08/01/podcast.jpg
 featured_image_source: https://unsplash.com/photos/rk_Zz3b7G2Y
 author: domix
 url: /podcast-agosto-s01-e06/

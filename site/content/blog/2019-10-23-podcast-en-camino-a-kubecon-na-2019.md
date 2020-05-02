@@ -1,7 +1,7 @@
 ---
 title: "Podcast S01-E11: En camino a Kubecon NA 2019"
 date: 2019-10-24T11:22:05-05:00
-featured_image: /media/2019/10/23/podcast.jpg
+feature_image: /media/2019/10/23/podcast.jpg
 featured_image_source: https://unsplash.com/photos/uxIU0kYGu-k
 author: domix
 url: /podcast-s01-e11-en-camino-a-kubecon-na-2019/

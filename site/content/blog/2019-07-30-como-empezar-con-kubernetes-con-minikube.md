@@ -1,7 +1,7 @@
 ---
 title: "Como Empezar Con Kubernetes Usando Minikube"
 date: 2019-07-25T00:12:26-07:00
-featured_image: /media/2019/07/30/minikube_logo_with_background.jpg
+feature_image: /media/2019/07/30/minikube_logo_with_background.jpg
 featured_image_source: https://github.com/kubernetes/minikube/blob/master/images/logo/minikube-logo.png
 author: marco
 url: /como-empezar-con-kubernetes-usando-minikube/

@@ -1,3 +1,6 @@
 [submodule "site/themes/hugo-casper3"]
 	path = site/themes/hugo-casper3
 	url = git@github.com:jonathanjanssens/hugo-casper3.git
+[submodule "site/themes/newsroom"]
+	path = site/themes/newsroom
+	url = git@github.com:onweru/newsroom.git

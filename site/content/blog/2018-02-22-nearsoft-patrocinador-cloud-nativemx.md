@@ -1,7 +1,7 @@
 ---
 title: "Nearsoft Patrocinador Cloud Native MX"
 date: 2018-02-22T07:42:02-06:00
-featured_image: /media/2018/02/nearsoft-sponsor.jpg
+feature_image: /media/2018/02/nearsoft-sponsor.jpg
 featured_image_source: https://unsplash.com/photos/0EVKn3-5JSU
 author: domix
 url: /nearsoft-patrocinador-2018/

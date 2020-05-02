@@ -1,7 +1,7 @@
 ---
 title: "Podcast S01-E13: El recuento de la década"
 date: 2020-01-07T12:39:43-06:00
-featured_image: /media/2020/01/07/podcast.png
+feature_image: /media/2020/01/07/podcast.png
 featured_image_source: https://unsplash.com/photos/Ij7h-m4nJ18
 author: domix
 url: /podcast-s01-e13-el-recuento-de-la-decada/

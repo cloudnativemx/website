@@ -1,7 +1,7 @@
 ---
 title: "Meetup Septiembre 2018 - Introducción algoritmo Raft & Jenkins Pipeline Script con Docker"
 date: 2018-10-11T19:37:47-05:00
-featured_image: /media/2018/10/11/meetup5.jpg
+feature_image: /media/2018/10/11/meetup5.jpg
 featured_image_source: https://unsplash.com/photos/Esq0ovRY-Zs
 author: domix
 url: /meetup-septiembre-2018-raft-jenkins/

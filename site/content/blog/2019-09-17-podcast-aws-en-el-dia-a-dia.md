@@ -1,7 +1,7 @@
 ---
 title: "Podcast S01-E09: AWS en el día a día de un practicante DevOps expatriado"
 date: 2019-09-17T14:01:44-05:00
-featured_image: /media/2019/09/17/podcast.jpg
+feature_image: /media/2019/09/17/podcast.jpg
 featured_image_source: https://unsplash.com/photos/MWPuqBTZYHw
 author: domix
 url: /podcast-s01-e09-aws-en-el-dia-a-dia-de-un-practicante-devops-expatriado/

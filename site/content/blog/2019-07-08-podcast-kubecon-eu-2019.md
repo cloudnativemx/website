@@ -1,7 +1,7 @@
 ---
 title: "Podcast S01E04: KubeCon Europe 2019"
 date: 2019-07-08T10:08:50-05:00
-featured_image: /media/2019/07/08/podcast.png
+feature_image: /media/2019/07/08/podcast.png
 featured_image_source: https://unsplash.com/photos/OKLqGsCT8qs
 author: domix
 url: /podcast-kubecon-eu-2019/

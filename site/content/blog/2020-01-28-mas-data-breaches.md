@@ -1,7 +1,7 @@
 ---
 title: "Podcast S01-E16: Más data breaches - Microsoft y Jeff Bezos Hackeados!"
 date: 2020-01-28T09:59:03-06:00
-featured_image: /media/2020/01/28/podcast.png
+feature_image: /media/2020/01/28/podcast.png
 featured_image_source: https://unsplash.com/photos/SgfaEGYX-JQ
 author: domix
 url: /podcast-s01-e16-mas-data-breaches/

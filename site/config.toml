@@ -1,7 +1,7 @@
 baseURL = "http://cloudnative.mx/"
 languageCode = "es-mx"
 title = "Cloud Native MX"
-theme = "website"
+theme = "hugo-casper3"
 googleAnalytics     = "UA-112003442-1"
 disqusShortname = "cloudnativemx"
 

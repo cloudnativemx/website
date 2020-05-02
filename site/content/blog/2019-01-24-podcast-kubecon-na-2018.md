@@ -1,7 +1,7 @@
 ---
 title: "Podcast Kubecon Na 2018"
 date: 2019-01-24T17:29:26-06:00
-featured_image: /media/2019/01/24/DSC00836.jpg
+feature_image: /media/2019/01/24/DSC00836.jpg
 featured_image_source: https://unsplash.com/photos/Esq0ovRY-Zs
 author: domix
 url: /podcast-kubecon-na-2018/

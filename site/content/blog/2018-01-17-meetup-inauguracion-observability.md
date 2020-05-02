@@ -1,7 +1,7 @@
 ---
 title: "Meetup Inauguración & Observability"
 date: 2018-01-17T12:49:05-06:00
-featured_image: /media/2018/01/meetup-inauguracion-observability.jpg
+feature_image: /media/2018/01/meetup-inauguracion-observability.jpg
 featured_image_source: https://unsplash.com/photos/BCChEYrooGU
 author: domix
 url: /meetup-enero-2018-inauguracion-observability/

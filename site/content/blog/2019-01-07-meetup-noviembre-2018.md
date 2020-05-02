@@ -1,7 +1,7 @@
 ---
 title: "Meetup Noviembre 2018 - Introducción a Prometheus"
 date: 2019-01-07T09:17:39-06:00
-featured_image: /media/2019/01/07/intro-prometheus.jpeg
+feature_image: /media/2019/01/07/intro-prometheus.jpeg
 featured_image_source: https://unsplash.com/photos/Esq0ovRY-Zs
 author: domix
 url: /meetup-noviembre-2018-prometheus/

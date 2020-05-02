@@ -1,7 +1,7 @@
 ---
 title: "Microsoft Azure - Hackfest de Kubernetes"
 date: 2018-01-15T11:27:09-06:00
-featured_image: /media/2018/01/azure-hackfest-kubernetes.jpg
+feature_image: /media/2018/01/azure-hackfest-kubernetes.jpg
 featured_image_source: https://unsplash.com/photos/IuLgi9PWETU
 author: domix
 url: /microsoft-azure-hackfest-kubernetes/

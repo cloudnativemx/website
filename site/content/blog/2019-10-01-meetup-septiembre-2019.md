@@ -1,7 +1,7 @@
 ---
 title: "Meetup Septiembre 2019 - MySQL: a Cloud Native Database"
 date: 2019-10-01T23:56:33-05:00
-featured_image: /media/2019/10/11/meetup.jpg
+feature_image: /media/2019/10/11/meetup.jpg
 featured_image_source: https://unsplash.com/photos/CyFBmFEsytU
 author: domix
 url: /meetup-septiembre-2019-mysql-a-cloud-native-database/

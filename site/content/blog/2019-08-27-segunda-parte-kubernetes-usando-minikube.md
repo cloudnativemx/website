@@ -1,7 +1,7 @@
 ---
 title: "Segunda parte Kubernetes Usando Minikube"
 date: 2019-08-27T00:00:00-07:00
-featured_image: /media/2019/08/27/kubernetes_and_minikube.jpg
+feature_image: /media/2019/08/27/kubernetes_and_minikube.jpg
 featured_image_source: https://github.com/kubernetes/minikube/blob/master/images/logo/minikube-logo.png, https://unsplash.com/photos/_wSP_ts1CRA
 author: marco
 url: /segunda-parte-kubernetes-usando-minikube/

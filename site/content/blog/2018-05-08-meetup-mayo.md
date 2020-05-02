@@ -1,7 +1,7 @@
 ---
 title: "Meetup Mayo 2018 - Creando un contenedor desde 0"
 date: 2018-05-09T13:09:14-05:00
-featured_image: /media/2018/05/08/meetup-mayo.png
+feature_image: /media/2018/05/08/meetup-mayo.png
 featured_image_source: https://unsplash.com/photos/7JX0-bfiuxQ
 author: domix
 url: /meetup-mayo-2018-creando-un-contenedor-desde-0/

@@ -6,7 +6,7 @@ COPY ./site ./
 RUN sh -c './build.sh'
 
 # build runtime image
-FROM nginx:1.17.9-alpine
+FROM nginx:1.17.10-alpine
 
 ENV TZ=America/Mexico_City
 RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
